@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NMetrics.Ninject</id>
+    <version>0.1.1</version>
+    <authors>Tyler Tolley</authors>
+    <owners>Tyler Tolley</owners>
+    <licenseUrl>http://raw.githubusercontent.com/thattolleyguy/nmetrics/master/LICENSE</licenseUrl>
+    <projectUrl>http://github.com/thattolleyguy/nmetrics</projectUrl>
+    <iconUrl>http://raw.githubusercontent.com/thattolleyguy/nmetrics/master/nmetrics-hat.png</iconUrl>
+    <description>Ninject AOP adapter for NMetrics</description>
+    <releaseNotes>
+		- Initial Version
+	</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>metrics ninject aop</tags>
+  </metadata>
+</package>

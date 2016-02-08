@@ -1,6 +1,6 @@
-﻿using System;
+﻿using NMetrics.Stats;
 using NUnit.Framework;
-using NMetrics.Stats;
+using System;
 
 namespace NMetrics.Tests.Stats
 {

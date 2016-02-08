@@ -1,6 +1,5 @@
-using System;
-using System.Collections.Generic;
 using NMetrics.Core;
+using System.Collections.Generic;
 
 namespace NMetrics.CLR
 {

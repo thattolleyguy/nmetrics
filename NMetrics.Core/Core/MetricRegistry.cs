@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Diagnostics;
-using NMetrics.Core;
-using NMetrics.Reporting;
-using NMetrics.Support;
 using System.Collections.Immutable;
 
-namespace NMetrics
+namespace NMetrics.Core
 {
 
 

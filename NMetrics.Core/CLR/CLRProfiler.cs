@@ -1,11 +1,11 @@
-﻿using System;
+﻿using NMetrics.Util;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Security;
 using System.Text;
 using System.Threading;
-using NMetrics.Util;
 
 namespace NMetrics.Core
 {

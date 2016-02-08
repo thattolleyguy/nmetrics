@@ -1,14 +1,9 @@
 ﻿using Ninject;
-using Ninject.Extensions.Interception.Request;
-using Ninject.Extensions.Interception;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
+using NMetrics.Core;
 using NMetrics.Reporting;
 using NMetrics.Reporting.Graphite;
+using System;
+using System.Threading;
 
 namespace NMetrics.Ninject
 {

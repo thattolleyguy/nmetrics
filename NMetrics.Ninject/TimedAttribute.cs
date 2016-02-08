@@ -1,13 +1,8 @@
-﻿using Ninject.Extensions.Interception.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Ninject;
 using Ninject.Extensions.Interception;
+using Ninject.Extensions.Interception.Attributes;
 using Ninject.Extensions.Interception.Request;
 using NMetrics.Core;
-using Ninject;
 
 
 namespace NMetrics.Ninject

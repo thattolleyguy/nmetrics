@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NMetrics.Core
+﻿namespace NMetrics.Core
 {
     /// <summary>
     /// A filter used to determine whether or not a metric should be reported, among other things.

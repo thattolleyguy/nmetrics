@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using NMetrics.Core;
-using System.Linq;
+﻿using NMetrics.Core;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace NMetrics.Util
 {

@@ -1,11 +1,8 @@
-﻿using System;
-using System.Text;
-using System.Threading;
-using NMetrics.Core;
+﻿using NMetrics.Core;
 using NMetrics.Reporting;
-using NMetrics.CLR;
-using Newtonsoft.Json;
 using NMetrics.Reporting.Graphite;
+using System;
+using System.Threading;
 
 namespace NMetrics.Tests
 {

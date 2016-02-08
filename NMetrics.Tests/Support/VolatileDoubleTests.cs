@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
-using NMetrics.Support;
+﻿using NMetrics.Support;
 using NUnit.Framework;
+using System.Diagnostics;
 
 namespace NMetrics.Tests.Support
 {

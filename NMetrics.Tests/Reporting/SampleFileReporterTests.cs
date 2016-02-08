@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Threading;
-using NUnit.Framework;
-using NMetrics.Reporting;
-using NMetrics.Tests.Core;
-
-namespace NMetrics.Tests.Reporting
+﻿namespace NMetrics.Tests.Reporting
 {
     //[TestFixture]
     //public class SampleFileReporterTests

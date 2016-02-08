@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using log4net;
 using NMetrics.Core;
-using log4net;
 using NMetrics.Util;
+using System;
+using System.Collections.Generic;
 
 namespace NMetrics.Reporting.Graphite
 {

@@ -1,9 +1,7 @@
-using System;
+using NMetrics.Core;
+using NUnit.Framework;
 using System.Diagnostics;
 using System.Threading;
-using NUnit.Framework;
-using NMetrics.Core;
-using NMetrics.Reporting;
 
 namespace NMetrics.Tests.Core
 {

@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace NMetrics.Core
+﻿namespace NMetrics.Core
 {
     public interface IMetric 
     {

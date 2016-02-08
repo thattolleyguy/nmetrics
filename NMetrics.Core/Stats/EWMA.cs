@@ -1,5 +1,5 @@
-﻿using System;
-using NMetrics.Support;
+﻿using NMetrics.Support;
+using System;
 
 namespace NMetrics.Stats
 {

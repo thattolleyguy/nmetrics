@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using NMetrics.Core;
+﻿using NMetrics.Core;
 using NUnit.Framework;
+using System.Collections.Generic;
 
 namespace NMetrics.Tests.Core
 {

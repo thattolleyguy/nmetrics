@@ -1,7 +1,7 @@
-﻿using System;
+﻿using NMetrics.Support;
+using System;
 using System.Collections.Generic;
 using System.Threading;
-using NMetrics.Support;
 
 namespace NMetrics.Util
 {

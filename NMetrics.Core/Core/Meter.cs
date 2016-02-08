@@ -1,10 +1,7 @@
-﻿using System;
-using System.Runtime.Serialization;
-using System.Threading;
-using System.Threading.Tasks;
-using NMetrics.Stats;
+﻿using NMetrics.Stats;
 using NMetrics.Support;
-using System.Text;
+using System;
+using System.Threading;
 
 namespace NMetrics.Core
 {

@@ -1,7 +1,6 @@
-﻿using System;
+﻿using NMetrics.Core;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using NMetrics.Core;
 
 namespace NMetrics.Util
 {

@@ -1,135 +1,127 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Threading;
-using NUnit.Framework;
-using NMetrics.Reporting;
-using NMetrics.Tests.Core;
-
-namespace NMetrics.Tests.Reporting
+﻿namespace NMetrics.Tests.Reporting
 {
-   /* [TestFixture]
-    public class FileReporterTests
-    {
-        private string _filename;
-        private static MetricRegistry _metrics;
+    /* [TestFixture]
+     public class FileReporterTests
+     {
+         private string _filename;
+         private static MetricRegistry _metrics;
 
-        [SetUp]
-        public void Setup()
-        {
-            _filename = Path.GetTempFileName();
-        }
+         [SetUp]
+         public void Setup()
+         {
+             _filename = Path.GetTempFileName();
+         }
 
-        [TestFixtureTearDown]
-        public void Cleanup()
-        {
-            if (File.Exists(_filename))
-            {
-                File.Delete(_filename);
-            }
-        }
+         [TestFixtureTearDown]
+         public void Cleanup()
+         {
+             if (File.Exists(_filename))
+             {
+                 File.Delete(_filename);
+             }
+         }
 
-        [Test]
-        public void File_is_created_with_human_readable_content()
-        {
-            RegisterMetrics();
+         [Test]
+         public void File_is_created_with_human_readable_content()
+         {
+             RegisterMetrics();
 
-            using (var reporter = new FileReporter(_filename, _metrics))
-            {
-                reporter.Run();
-                Assert.IsTrue(File.Exists(_filename));
-            }
+             using (var reporter = new FileReporter(_filename, _metrics))
+             {
+                 reporter.Run();
+                 Assert.IsTrue(File.Exists(_filename));
+             }
 
-            var contents = File.ReadAllText(_filename);
-            Console.WriteLine(contents);
-        }
+             var contents = File.ReadAllText(_filename);
+             Console.WriteLine(contents);
+         }
 
-        [Test]
-        public void File_is_created_with_json_content()
-        {
-            RegisterMetrics();
+         [Test]
+         public void File_is_created_with_json_content()
+         {
+             RegisterMetrics();
 
-            using (var reporter = new FileReporter(_filename, new JsonReportFormatter(_metrics)))
-            {
-                reporter.Run();
-                Assert.IsTrue(File.Exists(_filename));
-            }
+             using (var reporter = new FileReporter(_filename, new JsonReportFormatter(_metrics)))
+             {
+                 reporter.Run();
+                 Assert.IsTrue(File.Exists(_filename));
+             }
 
-            var contents = File.ReadAllText(_filename);
-            Console.WriteLine(contents);
-        }
+             var contents = File.ReadAllText(_filename);
+             Console.WriteLine(contents);
+         }
 
-        [Test]
-        public void Can_run_with_known_counters()
-        {
-            RegisterMetrics();
+         [Test]
+         public void Can_run_with_known_counters()
+         {
+             RegisterMetrics();
 
-            using (var reporter = new FileReporter(_filename,_metrics))
-            {
-                reporter.Run();
-            }
-        }
+             using (var reporter = new FileReporter(_filename,_metrics))
+             {
+                 reporter.Run();
+             }
+         }
 
-        [Test]
-        public void Can_stop()
-        {
-            var block = new ManualResetEvent(false);
+         [Test]
+         public void Can_stop()
+         {
+             var block = new ManualResetEvent(false);
 
-            RegisterMetrics();
+             RegisterMetrics();
 
-            ThreadPool.QueueUserWorkItem(
-                s =>
-                {
-                    var reporter = new FileReporter(Path.GetTempFileName(), _metrics);
-                    reporter.Start(1, TimeUnit.Seconds);
-                    reporter.Stopped += delegate { block.Set(); };
-                    Thread.Sleep(2000);
-                    reporter.Stop();
-                });
+             ThreadPool.QueueUserWorkItem(
+                 s =>
+                 {
+                     var reporter = new FileReporter(Path.GetTempFileName(), _metrics);
+                     reporter.Start(1, TimeUnit.Seconds);
+                     reporter.Stopped += delegate { block.Set(); };
+                     Thread.Sleep(2000);
+                     reporter.Stop();
+                 });
 
-            block.WaitOne();
-        }
+             block.WaitOne();
+         }
 
-        [Test]
-        public void Can_run_in_background()
-        {
-            const int ticks = 3;
-            var block = new ManualResetEvent(false);
+         [Test]
+         public void Can_run_in_background()
+         {
+             const int ticks = 3;
+             var block = new ManualResetEvent(false);
 
-            RegisterMetrics();
+             RegisterMetrics();
 
-            ThreadPool.QueueUserWorkItem(
-                s =>
-                {
-                    using (var reporter = new FileReporter(_filename, _metrics))
-                    {
-                        reporter.Start(3, TimeUnit.Seconds);
-                        while (true)
-                        {
-                            Thread.Sleep(1000);
-                            var runs = reporter.Runs;
-                            if (runs == ticks)
-                            {
-                                block.Set();
-                            }
-                        }
-                    }
-                });
+             ThreadPool.QueueUserWorkItem(
+                 s =>
+                 {
+                     using (var reporter = new FileReporter(_filename, _metrics))
+                     {
+                         reporter.Start(3, TimeUnit.Seconds);
+                         while (true)
+                         {
+                             Thread.Sleep(1000);
+                             var runs = reporter.Runs;
+                             if (runs == ticks)
+                             {
+                                 block.Set();
+                             }
+                         }
+                     }
+                 });
 
-            block.WaitOne(TimeSpan.FromSeconds(5));
-        }
+             block.WaitOne(TimeSpan.FromSeconds(5));
+         }
 
-        private static void RegisterMetrics()
-        {
-            _metrics = new MetricRegistry();
- 
-            var counter = _metrics.Counter("CounterTests.Can_run_with_known_counters_counter");
-            counter.Increment(100);
+         private static void RegisterMetrics()
+         {
+             _metrics = new MetricRegistry();
 
-            var queue = new Queue<int>();
-            _metrics.Gauge(typeof(GaugeTests), "Can_run_with_known_counters_gauge", () => queue.Count);
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-        }
-    }*/
+             var counter = _metrics.Counter("CounterTests.Can_run_with_known_counters_counter");
+             counter.Increment(100);
+
+             var queue = new Queue<int>();
+             _metrics.Gauge(typeof(GaugeTests), "Can_run_with_known_counters_gauge", () => queue.Count);
+             queue.Enqueue(1);
+             queue.Enqueue(2);
+         }
+     }*/
 }

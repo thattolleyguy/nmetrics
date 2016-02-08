@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Text;
-using NMetrics.Core;
 
 namespace NMetrics.Health
 {

@@ -1,6 +1,4 @@
-﻿using System.Runtime.Serialization;
-using System.Text;
-using NMetrics.Support;
+﻿using NMetrics.Support;
 
 namespace NMetrics.Core
 {

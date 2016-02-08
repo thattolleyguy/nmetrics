@@ -1,7 +1,5 @@
-﻿using System.Linq;
+﻿using NMetrics.Core;
 using NUnit.Framework;
-using NMetrics.Core;
-using NMetrics.Stats;
 
 namespace NMetrics.Tests.Core
 {

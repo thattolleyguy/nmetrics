@@ -1,10 +1,10 @@
-﻿using System;
+﻿using NMetrics.Core;
+using NMetrics.Util;
+using NUnit.Framework;
+using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
-using NMetrics.Core;
-using NUnit.Framework;
-using NMetrics.Util;
 
 namespace NMetrics.Tests.Core
 {
