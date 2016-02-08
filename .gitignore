@@ -42,3 +42,5 @@ packages/
 /NMetrics.v2.ncrunchsolution
 /metrics.v2.ncrunchsolution
 /OpenCover
+/NMetrics.Ninject/lib
+/*/*.nupkg

@@ -1,7 +1,6 @@
 ﻿using Ninject;
 using NMetrics.Core;
 using NMetrics.Reporting;
-using NMetrics.Reporting.Graphite;
 using System;
 using System.Threading;
 
@@ -23,10 +22,6 @@ namespace NMetrics.Ninject
             Tryout t = kernel.Get<Tryout>();
             ConsoleReporter reporter = ConsoleReporter.ForRegistry(registry).build();
             reporter.Start(1, TimeUnit.Seconds);
-
-            Graphite sender = new Graphite("ttolley-lap3", 2003);
-            GraphiteReporter greporter = GraphiteReporter.ForRegistry(registry).Build(sender);
-            greporter.Start(10, TimeUnit.Seconds);
 
             int i = 0;
             Random r = new Random();
