@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 
 namespace NMetrics.Core
 {
@@ -14,7 +13,6 @@ namespace NMetrics.Core
             this.type = type;
         }
 
-        [JsonIgnore]
         public abstract string ValueAsString { get; }
     }
 
@@ -42,7 +40,6 @@ namespace NMetrics.Core
             get { return _evaluator.Invoke(); }
         }
 
-        [JsonIgnore]
         public override string ValueAsString
         {
             get { return Value.ToString(); }
