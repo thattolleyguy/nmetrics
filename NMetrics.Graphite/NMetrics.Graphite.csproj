@@ -7,8 +7,8 @@
     <ProjectGuid>{72B67D02-51A4-4E6D-B734-FC277D447BBA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Metrics.Reporting.Graphite</RootNamespace>
-    <AssemblyName>Metrics.Reporting.Graphite</AssemblyName>
+    <RootNamespace>NMetrics.Reporting.Graphite</RootNamespace>
+    <AssemblyName>NMetrics.Reporting.Graphite</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>lib\net451\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>

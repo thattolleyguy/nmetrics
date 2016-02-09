@@ -52,6 +52,10 @@
       <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="NMetrics.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6db1cd555b0764cc, processorArchitecture=MSIL">
+      <HintPath>..\packages\NMetrics.Core.0.1.4\lib\net451\NMetrics.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
@@ -96,10 +100,6 @@
     <ProjectReference Include="..\NMetrics.Graphite\NMetrics.Graphite.csproj">
       <Project>{72b67d02-51a4-4e6d-b734-fc277d447bba}</Project>
       <Name>NMetrics.Graphite</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NMetrics.Core\NMetrics.Core.csproj">
-      <Project>{3FBA902F-4F7E-434D-BE22-89C162B6F92D}</Project>
-      <Name>NMetrics.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

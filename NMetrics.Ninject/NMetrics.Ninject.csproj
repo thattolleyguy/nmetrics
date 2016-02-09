@@ -7,8 +7,8 @@
     <ProjectGuid>{E2150D40-5E23-4085-9D72-CDDF66698B33}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Metrics.Ninject</RootNamespace>
-    <AssemblyName>Metrics.Ninject</AssemblyName>
+    <RootNamespace>NMetrics.Ninject</RootNamespace>
+    <AssemblyName>NMetrics.Ninject</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
