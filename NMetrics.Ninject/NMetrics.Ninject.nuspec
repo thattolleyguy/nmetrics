@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>NMetrics.Ninject</id>
-    <version>0.1.4</version>
+    <version>0.1.5</version>
     <authors>Tyler Tolley</authors>
     <owners>Tyler Tolley</owners>
     <licenseUrl>http://raw.githubusercontent.com/thattolleyguy/nmetrics/master/LICENSE</licenseUrl>
@@ -10,7 +10,7 @@
     <iconUrl>http://raw.githubusercontent.com/thattolleyguy/nmetrics/master/nmetrics-hat.png</iconUrl>
     <description>Ninject AOP adapter for NMetrics</description>
     <releaseNotes>
-		- Update assembly info
+		- Update version of core
 	</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>metrics ninject aop</tags>
