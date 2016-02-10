@@ -5,12 +5,12 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("metrics")]
+[assembly: AssemblyTitle("NMetrics.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("metrics")]
-[assembly: AssemblyCopyright("Copyright © Daniel Crenna 2011")]
+[assembly: AssemblyProduct("NMetrics.Core")]
+[assembly: AssemblyCopyright("Copyright © Tyler Tolley 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: AllowPartiallyTrustedCallers]
@@ -22,7 +22,7 @@ using System.Security;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("922ec375-7f03-46b9-95d7-d990c6f7795c")]
+[assembly: Guid("57BD52B4-944E-4CA4-899B-FCB34D74E4ED")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -34,5 +34,5 @@ using System.Security;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.1.5.0")]
+[assembly: AssemblyFileVersion("0.1.5.0")]
