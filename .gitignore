@@ -45,3 +45,5 @@ packages/
 /NMetrics.Ninject/lib
 /*/*.nupkg
 /_NCrunch_NMetrics
+/NMetrics.Graphite/lib
+/NMetrics.Core/lib
