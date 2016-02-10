@@ -6,9 +6,9 @@ using System.Security;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("NMetrics.Core")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Capturing CLR and application-level metrics. So you know what's going on. An idiomatic port of Coda Hale's Metrics for Scala and the JVM forked from metrics-net")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Tyler Tolley")]
 [assembly: AssemblyProduct("NMetrics.Core")]
 [assembly: AssemblyCopyright("Copyright © Tyler Tolley 2016")]
 [assembly: AssemblyTrademark("")]
@@ -34,5 +34,5 @@ using System.Security;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.1.5.0")]
-[assembly: AssemblyFileVersion("0.1.5.0")]
+[assembly: AssemblyVersion("0.2.0.0")]
+[assembly: AssemblyFileVersion("0.2.0.0")]

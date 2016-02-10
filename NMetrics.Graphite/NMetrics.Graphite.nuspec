@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>NMetrics.Graphite</id>
-    <version>0.1.5</version>
-    <authors>Tyler Tolley</authors>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
     <owners>Tyler Tolley</owners>
     <licenseUrl>http://raw.githubusercontent.com/thattolleyguy/nmetrics/master/LICENSE</licenseUrl>
     <projectUrl>http://github.com/thattolleyguy/nmetrics</projectUrl>
     <iconUrl>http://raw.githubusercontent.com/thattolleyguy/nmetrics/master/nmetrics-hat.png</iconUrl>
-    <description>Graphite reporting adapter for NMetrics</description>
+    <description>$description$</description>
     <releaseNotes>
 		- Update version of core
 	</releaseNotes>
