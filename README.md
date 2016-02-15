@@ -8,4 +8,4 @@
 Introduction
 ------------
 
-This library is still currently in beta as the interface continues to change to match the original java library. .Net specific documentation is forthcoming but the java [documentation] (http://dropwizard.github.io/metrics/3.1.0/) be helpful for reference.
+This library is still currently in beta as the interface continues to change to match the original java library. .Net specific documentation is forthcoming but the java [documentation] (http://dropwizard.github.io/metrics/3.1.0/) should be helpful for reference.
